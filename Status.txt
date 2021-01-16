@@ -1,0 +1,13 @@
+1.MySQL- 
+	a.Assignment mysql day 1 ---> pending 2 questions (cannot able to answer...please help me out)
+		7. Display employees who joined in the current year.
+					and
+		9. Display how many employees joined in each month of the current year.
+	b.Mysql classwork day 1 ----> done.
+	c.day2 classwork assignment---> done.
+	d.mysql assignment day 2----> done.
+2.JAVA-
+	a.day 3 assignment--->Pending 1 questions 
+		class name- Exam.class (online examination system -I cannot implement "each block mandatory but only one time part"
+		means in while loop my conditions are wrong. and already visited part also.)
+	Rest are done.

@@ -1,4 +1,0 @@
-in mysql assignment 1
-7. Display employees who joined in the current year.
-and
-9. Display how many employees joined in each month of the current year.

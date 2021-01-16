@@ -1,3 +1,0 @@
-in online examination system
-I cannot implement "each block mandatory but only one time part"
-means in while loop my conditions are wrong. and already visited part also.
