@@ -121,7 +121,7 @@ class Exam
 			}
 			
 		}
-	while(tot<=9);
+	while(tot!=9);
 	{
 		System.out.println("Your correct answers:"+tot);
 		int result=tot*10;

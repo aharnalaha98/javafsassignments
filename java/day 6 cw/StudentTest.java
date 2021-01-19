@@ -4,68 +4,77 @@ class Student
 	
 	Scanner sc= new Scanner(System.in);
 	int n=sc.nextInt();
+	
 	int sid[]=new int[n];
 	String sname[]=new String[n];
 	int age[]=new int[n];
-	int marks[]=new int[n];
-	int pmarks[]=new int[n];
-	int cmarks[]=new int[n];
-	int mmarks[]=new int[n];
-	int bmarks[]=new int[n];
+	
+	int total;
+	
 	String grade[]=new String[n];
 	void input()
 	{
 		for(int i=0;i<n;i++)
 		{
+			sc.nextLine();
 			System.out.println("\n Enter Student id ");
 			sid[i]=sc.nextInt();
+			sc.nextLine();
 			System.out.println("\n Enter Student name ");
 			sname[i]=sc.next();
+			sc.nextLine();
 			System.out.println("\n Enter Age ");
 			age[i]=sc.nextInt();
-			for(i=0;i<marks.length;i++)
+			sc.nextLine();
+			System.out.println("\n Enter Total Subject ");
+									
+			int sn=sc.nextInt();
+			int marks[]=new int[sn];
+									
+			
+			for(i=0;i<sn;i++)
 			{
-				System.out.println("Enter Physics Marks:");
-				pmarks[i]=sc.nextInt();
-				System.out.println("Enter Chemistry Marks:");
-				cmarks[i]=sc.nextInt();
-				System.out.println("Enter maths Marks:");
-				mmarks[i]=sc.nextInt();
-				System.out.println("Enter Biology Marks:");
-				bmarks[i]=sc.nextInt();
-			}	
+				sc.nextLine();
+				System.out.println("Enter Marks of Subject "+(i+1)+":");
+				marks[i]=sc.nextInt();
+				total=total+marks[i];
+						
+			}
+									
 
 		}	
 	}
+
 	void calgrade()
 	{
-		int avg[] = new int[n];
 		
+		int avg[]=new int[n];
 		for(int i=0;i<n;i++)
-		{
-			avg[i]=sc.nextInt();
-			avg[i] = (pmarks[i]+cmarks[i]+mmarks[i]+bmarks[i])/400;
 		
-		if(avg[i]>90)
 		{
-			System.out.println("A+");
-		}
-		else if(avg[i]>80)
-		{
-			System.out.println("A");
-		}
-		else if(avg[i]>70)
-		{
-			System.out.println("B");
-		}
-		else if(avg[i]>55)
-		{
-			System.out.println("C");
-		}
-		else
-		{
-			System.out.println("D");
-		}
+			
+			avg[i]=sc.nextInt();
+			avg[i]= total/4;
+				if(avg[i]>=90)
+				{
+					System.out.println("A+");
+				}
+				else if(avg[i]>=80 && avg[i]<90)
+				{
+					System.out.println("A");
+				}
+				else if(avg[i]>=70 && avg[i] <80)
+				{
+					System.out.println("B");
+				}
+				else if(avg[i] >=55 && avg[i]< 70)
+				{
+					System.out.println("C");
+				}
+				else
+				{
+					System.out.println("D");
+				}
 		}
 	}
 	void display() 
@@ -87,7 +96,7 @@ class StudentTest
 {
 	public static void main (String[] args)
 	{
-		System.out.println("Enter total customer");
+		System.out.println("Enter total number of students:");
 		Student obj=new Student();
 		obj.input();
 		obj.calgrade();

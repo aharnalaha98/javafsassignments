@@ -7,9 +7,7 @@
 	c.day2 classwork assignment---> done.
 	d.mysql assignment day 2----> done.
 2.JAVA-
-	a.day 3 assignment--->Pending 1 questions 
-		class name- Exam.class (online examination system -I cannot implement "each block mandatory but only one time part"
-		means in while loop my conditions are wrong. and already visited part also.)
-		Rest are done.
+	a.day 3 assignment--->done.
 	b.day 4 assignment----> done.
+	c.day 6 cw ----> pending (problem in grade part)
 	
