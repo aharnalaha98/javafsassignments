@@ -1,21 +1,21 @@
 Aharna Laha(93249)
 --------------------------------------------
-												     |  DATE   |
-MySQL-                                                                                               |         |
-------												     |---------|
-1-->>| DONE    | name of assignment (Mysql classwork day 1)					     | 	11/01  |
-2-->>| Pending | name of assignment (Assignment mysql day 1)      ----->      (Function 7,9)	     |	11/01  |
-3-->>| DONE    | name of assignment (day 2 classwork assignment)				     |	12/01  |
-4-->>| DONE    | name of assignment (mysql assignment day 2)					     |	12/01  |
------------------------------------------------------------------------------------------------------|---------|
-                                                                                                     |         |
-Java-                                                                                                |         |
-------                                                                                               |         |
-1-->>| Pending | name of assignment (day 3 assignment--->Exam)----->  (each block only one time part)|  13/01  |
-2-->>| DONE    | name of assignment (day 3 assignment--->Empdetails)				     |	13/01  |
-3-->>| DONE    | name of assignment (day 3 assignment--->Employeedetails)			     |	13/01  |
-4-->>| DONE    | name of assignment (day 4 assignment--->EmployeeTest)				     |	15/01  |
-5-->>| DONE    | name of assignment (day 6 assignment--->StudentTest) 	 			     |	18/01  |
-6-->>| Pending | name of assignment (day 6 assignment--->Mini_Project)--->   (not implemented)	     |	18/01  |
-7-->>| DONE    | name of assignment (day 7 assignment--->String)				     |	19/01  |
+												     |  DATE   |SUBMISSION|
+MySQL-                                                                                               |         |   DATE   |
+------												     |---------|----------|
+1-->>| DONE    | name of assignment (Mysql classwork day 1)					     | 	11/01  |   11/01  |
+2-->>| Pending | name of assignment (Assignment mysql day 1)      ----->(Function 7,9)	     	     |	11/01  |   14/01  |
+3-->>| DONE    | name of assignment (day 2 classwork assignment)				     |	12/01  |   12/01  |
+4-->>| DONE    | name of assignment (mysql assignment day 2)					     |	12/01  |   16/01  |
+-----------------------------------------------------------------------------------------------------|---------|----------|
+                                                                                                     |         |	  |
+Java-                                                                                                |         |	  |
+------                                                                                               |         |	  |
+1-->>| DONE    | name of assignment (Assignment 1--->Exam)					     |  13/01  |   20/01  |
+2-->>| DONE    | name of assignment (Assignment 2--->Empdetails)				     |	13/01  |   15/01  |
+3-->>| DONE    | name of assignment (Assignment 3--->Employeedetails)			             |	13/01  |   15/01  |
+4-->>| DONE    | name of assignment (Assignment 4--->EmployeeTest)				     |	15/01  |   17/01  |
+5-->>| DONE    | name of assignment (Assignment 5--->StudentTest) 	 			     |	18/01  |   20/01  |
+6-->>| Pending | name of assignment (Assignment 6--->Mini_Project)--->  (doing)	             	     |	18/01  |	  |
+7-->>| DONE    | name of assignment (Assignment 7--->String)				             |	19/01  |   19/01  |	
 	

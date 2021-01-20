@@ -27,7 +27,7 @@ abstract class AccountInitialization
 			this.accountNumber=accountNumber;
 			this.name=name;
 			this.amount=amount;
-			Account acc=new Account(accountNumber);			//
+			Account acc=new Account(accountNumber);			//problem
 		}
 	}
 	void setValue(int accountNumber,String name,double amount)
@@ -75,7 +75,7 @@ class Account
 	}
 	void getValue()
 	{
-
+				//problem 
 	}	
 }
 class MyBank extends AccountInitialization implements Bank
