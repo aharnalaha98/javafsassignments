@@ -15,7 +15,7 @@ Java-                                                                           
 2-->>| DONE    | name of assignment (day 3 assignment--->Empdetails)				     |	13/01  |
 3-->>| DONE    | name of assignment (day 3 assignment--->Employeedetails)			     |	13/01  |
 4-->>| DONE    | name of assignment (day 4 assignment--->EmployeeTest)				     |	15/01  |
-5-->>| Pending | name of assignment (day 6 assignment--->StudentTest) ---> (problem in grade part)   |	18/01  |
+5-->>| DONE    | name of assignment (day 6 assignment--->StudentTest) 	 			     |	18/01  |
 6-->>| Pending | name of assignment (day 6 assignment--->Mini_Project)--->   (not implemented)	     |	18/01  |
 7-->>| DONE    | name of assignment (day 7 assignment--->String)				     |	19/01  |
 	
