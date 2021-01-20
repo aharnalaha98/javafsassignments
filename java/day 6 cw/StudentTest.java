@@ -47,14 +47,14 @@ class Student
 
 	void calgrade()
 	{
-		
+		int result=total;
 		int avg[]=new int[n];
 		for(int i=0;i<n;i++)
 		
 		{
 			
 			avg[i]=sc.nextInt();
-			avg[i]= total/4;
+			avg[i]= result/4;
 				if(avg[i]>=90)
 				{
 					System.out.println("A+");
