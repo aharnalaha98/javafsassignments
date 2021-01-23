@@ -16,6 +16,12 @@ Java-                                                                           
 3-->>| DONE    | name of assignment (Assignment 3--->Employeedetails)			             |	13/01  |   15/01  |
 4-->>| DONE    | name of assignment (Assignment 4--->EmployeeTest)				     |	15/01  |   17/01  |
 5-->>| DONE    | name of assignment (Assignment 5--->StudentTest) 	 			     |	18/01  |   20/01  |
-6-->>| Pending | name of assignment (Assignment 6--->Mini_Project)--->  (doing)	             	     |	18/01  |	  |
+6-->>| Pending | name of assignment (Assignment 6--->Mini_Project)--->  	(Partially Done)     |	18/01  |	  |
 7-->>| DONE    | name of assignment (Assignment 7--->String)				             |	19/01  |   19/01  |	
-	
+8-->>| DONE    | name of assignment (Assignment 8--->EmployeeSort)         			     |  20/01  |   22/01  |
+9-->>| Pending | name of assignment (Assignment 9)-------------------> 		 (Pending)	     |  20/01  |          |
+10->>| Pending | name of assignment (Assignment 10)->Question 1-->AllUpper)----> (Done)		     |  20/01  |   21/01  |
+						   ->Question 2-->AllLower)----> (Done)              |  20/01  |   21/01  |
+						   ->Question 3-->)------------> (Pending)	     |  20/01  |          |
+						   ->Question 4-->)------------> (Pending)           |  20/01  |          |
+						   ->Question 5-->)------------> (Pending)           |  20/01  |          |

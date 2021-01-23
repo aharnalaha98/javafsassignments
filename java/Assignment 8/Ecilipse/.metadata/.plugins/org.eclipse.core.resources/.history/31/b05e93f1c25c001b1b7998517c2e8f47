@@ -1,0 +1,21 @@
+package file;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+
+public class FirstWordCapitalize {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try 
+		{
+			FileReader fis= new FileReader("C:\\sample text\\info.txt");
+			BufferedReader bis=new BufferedReader(fis);
+			PrintWriter out=(new PrintWriter(new FileWriter("D:\\infodetails.txt")));
+		
+
+	}
+
+}

@@ -1,0 +1,68 @@
+package file;
+
+/*import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;*/
+import java.io.BufferedReader;
+//import java.io.File;
+/*import java.io.FileInputStream;
+import java.io.FileOutputStream;*/
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+
+public class AllUpper {
+
+	public static void main(String[] args) 
+	
+	{
+		boolean foundSpace=true;
+		try 
+		{
+		// TODO Auto-generated method stub
+		//FileInputStream fis= new FileInputStream("C:\\sample text\\info.txt");
+		FileReader fis= new FileReader("C:\\sample text\\info.txt");
+		BufferedReader bis=new BufferedReader(fis);
+		PrintWriter out=(new PrintWriter(new FileWriter("D:\\infodetails.txt")));
+		//FileReader fis= new FileReader("D:\\infodetails.txt");
+		String s="";
+		//char CharCounter=0;
+		//BufferedInputStream bis =new BufferedInputStream(fis);
+		//PrintWriter out= new PrintWriter(new FileWriter(fw));
+		//FileOutputStream fos=new FileOutputStream("info.doc");
+		//BufferedOutputStream bos=new BufferedOutputStream(fos);
+		//int ch;
+		while((s=bis.readLine())!= null)
+		{
+			/*if(Character.isLowerCase(ch))
+			{
+				ch=Character.toUpperCase(ch);
+				
+			}*/
+			/*if(foundSpace)
+			{
+				out.write(s.toUpperCase()+"\n");
+				foundSpace=false;
+			}
+			else {
+				foundSpace=true;
+			}*/
+			out.write(s.toLowerCase()+"\n");
+		}
+		//bos.flush();
+		out.close();
+		fis.close();
+		System.out.println("Read");
+		}
+		catch (Exception e) 
+		{
+		//fos.close();
+			e.printStackTrace();
+		
+		}
+		
+		
+		
+	}
+}
+
+
