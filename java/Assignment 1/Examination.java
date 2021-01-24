@@ -5,9 +5,7 @@ class Examination
 	public static void main(String[] args) 
 	{
 		Scanner sc=new Scanner(System.in);
-		int count=0;
-		int n=0;
-		int ans;
+		int count=0,n=0,ans;
 		int marks=10;
 		
 		boolean statusEnglish=false;
@@ -19,28 +17,30 @@ class Examination
 	
 		do
 		{
-		System.out.println("Welcome to Online Examination");
-		System.out.println("Which exam do you want to give first? Enter the number");
+		System.out.println("----------Welcome to Online Examination-----------");
+		System.out.println("Options are------------------");
 		System.out.println("1. English");
 		System.out.println("2. Math");
 		System.out.println("3. GK");
+		System.out.println("4.Exit");
+		System.out.println("------------------------------");
 		System.out.println("Enter Your Choice: ");
-		int value=sc.nextInt();
+		int option=sc.nextInt();
 		
-			switch (value)
+			switch (option)
 			{
 	
 				case 1 :
 				{
 					if (statusEnglish==true)
 					{
-						System.out.println("You have already visited on English Exam");
-						System.out.println();
+						System.out.println("Sorry!!You have already visited on English Exam");
+						System.out.println("------------------------------");
 						break;
 					}
 					else if (statusEnglish==false)
 					{
-						System.out.println("---English Exam---");
+						System.out.println("-----English Exam-----");
 						System.out.println("Do you like classical music? ----");
 						System.out.println("1) Yes, I likes  2)Yes, I like  3) Yes, I does   4)Yes, I do");
 						System.out.println("Enter your answer");
@@ -51,7 +51,7 @@ class Examination
 						 	marks = marks+10;
 						}
 
-						System.out.println("She works ---- Saturday.");
+						System.out.println("She works ____ Saturday.");
 						System.out.println("1) at  2)to  3) in   4)on");
 						System.out.println("Enter your answer");
 					
@@ -61,7 +61,7 @@ class Examination
 						 	marks = marks+10;
 						}
 
-						System.out.println("Switzerland is ---- than Britain.");
+						System.out.println("Switzerland is _____ than Britain.");
 						System.out.println("1) smaller  2) smallest  3) as small   4) more small");
 						System.out.println("Enter your answer");
 						ans = sc.nextInt();
@@ -85,13 +85,13 @@ class Examination
 				{
 					if (statusMath==true)
 					{
-						System.out.println("You have already visited on Maths Exam");
-						System.out.println();
+						System.out.println("Sorry!!You have already visited on Maths Exam");
+						System.out.println("------------------------------");
 						break;
 					}
 					else if (statusMath==false)
 					{
-						System.out.println("---Math Exam---");
+						System.out.println("-----Math Exam-----");
 						System.out.println("A fraction which bears the same ratio to 1/27 as 3/11 bear to 5/9 is equal to");
 						System.out.println("1) 1/55  2) 55  3) 3/11  4) 1/11");
 						System.out.println("Enter your answer");
@@ -131,14 +131,14 @@ class Examination
 				{
 					if (statusGK==true)
 					{
-						System.out.println("You have already visited on GK Exam");
-						System.out.println();
+						System.out.println("Sorry!!You have already visited on GK Exam");
+						System.out.println("------------------------------");
 						break;
 
 					}
 					else if (statusGK==false)
 					{
-						System.out.println("---GK Exam---");
+						System.out.println("-----GK Exam-----");
 						System.out.println("Which animal is known as the Ship of the Desert?");
 						System.out.println("1)Tiger  2) Lion  3)Camel");
 						System.out.println("Enter your answer");
@@ -177,11 +177,18 @@ class Examination
 					}
 						
 				}
-
+				case 4:
+				{
+					System.out.println("-----------------------------");
+					System.out.println("You need to complete all your exams");
+					System.out.println("------------------------------");
+					break;
+				}
 			}
 			if(count==3 && statusMath==true && statusEnglish==true && statusGK==true)
 			{
 				System.out.println("You have completed all your exams");
+				System.out.println("------------------------------");
 				System.out.println("Your Score is:"+marks);
 				if(marks >= 70)
 				{
@@ -197,7 +204,8 @@ class Examination
 			}
 			else
 			{
-				System.out.println("you need to complete all your exams");
+				
+				System.out.println("------------------------------");
 				System.out.println("Remaining exams are");
 				if (statusEnglish==true && statusGK==true)
 				{
@@ -226,10 +234,10 @@ class Examination
 					System.out.println("To complete your  English and GK  exam press 1 and 3");
 				}
 
-				
+				System.out.println("--------------------------------------------------------------------");
 			}
 		}
-		while (n<=3);
+		while (n<=4);
 			System.out.println("THANK YOU....");
 	}
 }
