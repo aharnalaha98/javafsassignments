@@ -1,6 +1,0 @@
-INDEX VERSION 1.131+C:\Users\AHARNA\Desktop\Ecilipse\.metadata\.plugins\org.eclipse.jdt.core
-2960744467.index
-2003615229.index
-2859973097.index
-2219061594.index
-1372146305.index
