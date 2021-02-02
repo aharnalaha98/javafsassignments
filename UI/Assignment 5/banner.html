@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/JavaScript">
+    MyBanner=new Array('banner1.jpg','banner2.jpg','banner3.jpg','banner4.jpg','banner5.jpg')
+    banner=0
+    function showBanner()
+    {
+        if(document.images){
+            banner++
+            if(banner==MyBanner.length){
+                banner=0;
+            }
+            document.ChangeBanner.src=MyBanner[banner]
+            setTimeout("showBanner()",5000)
+        }
+    }
+    </script>
+</head>
+<body onload="showBanner()" >
+    <center>
+        <img src="banner1.jpg" width="400" height="200" name="ChangeBanner"/>
+    </center>
+   
+</body>
+</html>
